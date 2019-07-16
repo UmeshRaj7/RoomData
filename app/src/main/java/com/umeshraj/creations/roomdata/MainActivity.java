@@ -17,7 +17,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private String mname;
+
     private RecyclerView recyclerView;
 
     @Override
