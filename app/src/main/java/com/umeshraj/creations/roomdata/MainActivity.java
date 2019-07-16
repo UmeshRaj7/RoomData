@@ -18,7 +18,6 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
 
-    private FloatingActionButton buttonAddProduct;
     private RecyclerView recyclerView;
 
     @Override
@@ -29,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.recyclerview_products);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        buttonAddProduct = findViewById(R.id.floating_button_add);
+        FloatingActionButton buttonAddProduct = findViewById(R.id.floating_button_add);
         buttonAddProduct.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
